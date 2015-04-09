@@ -6,7 +6,7 @@ function MessengerWebSocket(socket) {
         listeners = {},
         messages = {};
 
-    socket.on("message", function onMessage(data) {
+    socket.onmessage = function onMessage(data) {
         var message = JSON.parse(data),
             id = message.id,
             name = message.name,
@@ -28,7 +28,7 @@ function MessengerWebSocket(socket) {
                 delete messages[id];
             }
         }
-    });
+    };
 
     this.emit = function(name, data, callback) {
         var id = MESSAGE_ID++;
