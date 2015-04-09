@@ -1,0 +1,22 @@
+{
+  "name": "messenger_websocket",
+  "version": "0.0.1",
+  "description": "messenger android for the browser and node.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nathanfaucett/messenger_websocket.git"
+  },
+  "main": "src/index.js",
+  "keywords": [
+    "messenger_websocket",
+    "messenger_websocket.js"
+  ],
+  "author": "Nathan Faucett",
+  "license": "BSD-2-Clause",
+  "readmeFilename": "README.md",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-jshint": "^0.10.0",
+    "grunt-jsbeautifier": "^0.2.7"
+  }
+}
