@@ -1,4 +1,4 @@
-MessengerWebSocket
+MessengerWebSocketAdaptor
 =======
 
-MessengerWebSocket for the browser and node.js
+MessengerWebSocketAdaptor for the browser and node.js

@@ -1,15 +1,15 @@
 {
-  "name": "messenger_websocket",
+  "name": "messenger_websocket_adaptor",
   "version": "0.0.1",
-  "description": "messenger android for the browser and node.js",
+  "description": "MessengerWebSocketAdaptor for the browser and node.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/nathanfaucett/messenger_websocket.git"
+    "url": "https://github.com/nathanfaucett/messenger_websocket_adaptor.git"
   },
   "main": "src/index.js",
   "keywords": [
-    "messenger_websocket",
-    "messenger_websocket.js"
+    "messenger_websocket_adaptor",
+    "messenger_websocket_adaptor.js"
   ],
   "author": "Nathan Faucett",
   "license": "BSD-2-Clause",
