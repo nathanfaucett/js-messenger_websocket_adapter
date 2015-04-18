@@ -45,11 +45,10 @@ var WS = require(1),
 
 
 var socket = new WS("ws://127.0.0.1:8888"),
-    messenger;
+    messenger = new Messenger(new MessengerWebSocketAdaptor(socket));
 
 
 socket.onopen = function() {
-    messenger = new Messenger(new MessengerWebSocketAdaptor(socket));
     ping();
 };
 
