@@ -11,12 +11,17 @@
     "messenger_websocket_adaptor",
     "messenger_websocket_adaptor.js"
   ],
+  "scripts": {
+    "example": "comn -f example/src/index.js -o example/index.js"
+  },
   "author": "Nathan Faucett",
   "license": "BSD-2-Clause",
   "readmeFilename": "README.md",
   "devDependencies": {
     "grunt": "^0.4.5",
     "grunt-contrib-jshint": "^0.10.0",
-    "grunt-jsbeautifier": "^0.2.7"
+    "grunt-jsbeautifier": "^0.2.7",
+    "messenger": "git://github.com/nathanfaucett/messenger",
+    "ws": "^0.7.1"
   }
 }
