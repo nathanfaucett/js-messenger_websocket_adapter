@@ -1,4 +1,4 @@
-(function(dependencies, global) {
+(function(dependencies, undefined, global) {
     var cache = [];
 
     function require(index) {
@@ -232,25 +232,25 @@ function isMatch(messageId, id) {
 },
 function(require, exports, module, global) {
 
-var MessengerWebSocketAdaptorPrototype;
+var MessengerWebSocketAdapterPrototype;
 
 
-module.exports = MessengerWebSocketAdaptor;
+module.exports = MessengerWebSocketAdapter;
 
 
-function MessengerWebSocketAdaptor(socket, attachMessage, sendMessage) {
+function MessengerWebSocketAdapter(socket, attachMessage, sendMessage) {
     this.__socket = socket;
 
     this.__attachMessage = attachMessage || defaultAttachMessage;
     this.__sendMessage = sendMessage || defaultSendMessage;
 }
-MessengerWebSocketAdaptorPrototype = MessengerWebSocketAdaptor.prototype;
+MessengerWebSocketAdapterPrototype = MessengerWebSocketAdapter.prototype;
 
-MessengerWebSocketAdaptorPrototype.addMessageListener = function(callback) {
+MessengerWebSocketAdapterPrototype.addMessageListener = function(callback) {
     this.__attachMessage(this.__socket, callback);
 };
 
-MessengerWebSocketAdaptorPrototype.postMessage = function(data) {
+MessengerWebSocketAdapterPrototype.postMessage = function(data) {
     this.__sendMessage(this.__socket, data);
 };
 
@@ -265,4 +265,4 @@ function defaultSendMessage(socket, data) {
 }
 
 
-}], (new Function("return this;"))()));
+}], void 0, (new Function("return this;"))()));
