@@ -1,15 +1,15 @@
 {
-  "name": "messenger_websocket_adaptor",
+  "name": "messenger_websocket_adapter",
   "version": "0.0.1",
   "description": "MessengerWebSocketAdapter for the browser and node.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/nathanfaucett/messenger_websocket_adaptor.git"
+    "url": "https://github.com/nathanfaucett/messenger_websocket_adapter.git"
   },
   "main": "src/index.js",
   "keywords": [
-    "messenger_websocket_adaptor",
-    "messenger_websocket_adaptor.js"
+    "messenger_websocket_adapter",
+    "messenger_websocket_adapter.js"
   ],
   "scripts": {
     "example": "comn -f example/src/index.js -o example/index.js"
