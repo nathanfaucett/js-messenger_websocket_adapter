@@ -44,7 +44,7 @@ var WS = require(1),
     MessengerWebSocketAdaptor = require(3);
 
 
-var socket = new WS("ws://127.0.0.1:8888"),
+var socket = new WS("ws://127.0.0.1:9999"),
     messenger = new Messenger(new MessengerWebSocketAdaptor(socket));
 
 

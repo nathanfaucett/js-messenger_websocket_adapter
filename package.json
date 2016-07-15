@@ -1,7 +1,7 @@
 {
-  "name": "messenger_websocket_adapter",
+  "name": "@nathanfaucett/messenger_websocket_adapter",
   "version": "0.0.1",
-  "description": "MessengerWebSocketAdapter for the browser and node.js",
+  "description": "messenger WebSocket adapter",
   "repository": {
     "type": "git",
     "url": "https://github.com/nathanfaucett/messenger_websocket_adapter.git"
@@ -18,10 +18,10 @@
   "license": "MIT",
   "readmeFilename": "README.md",
   "devDependencies": {
-    "grunt": "^0.4.5",
-    "grunt-contrib-jshint": "^0.10.0",
-    "grunt-jsbeautifier": "^0.2.7",
-    "messenger": "git://github.com/nathanfaucett/messenger",
+    "grunt": "^1.0.1",
+    "grunt-contrib-jshint": "^1.0.0",
+    "grunt-jsbeautifier": "^0.2.13",
+    "@nathanfaucett/messenger": "^0.0.1",
     "ws": "^0.7.1"
   }
 }

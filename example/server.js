@@ -1,10 +1,10 @@
 var ws = require("ws"),
-    Messenger = require("messenger"),
+    Messenger = require("@nathanfaucett/messenger"),
     MessengerWebSocketAdaptor = require("../src/index");
     
     
 var wss = new ws.Server({
-    port: 8888
+    port: 9999
 });
 
 

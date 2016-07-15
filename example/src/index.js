@@ -1,9 +1,9 @@
 var WS = require("ws"),
-    Messenger = require("messenger"),
+    Messenger = require("@nathanfaucett/messenger"),
     MessengerWebSocketAdaptor = require("../../src/index");
 
 
-var socket = new WS("ws://127.0.0.1:8888"),
+var socket = new WS("ws://127.0.0.1:9999"),
     messenger = new Messenger(new MessengerWebSocketAdaptor(socket));
 
 
